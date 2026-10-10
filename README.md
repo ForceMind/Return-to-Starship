@@ -2,7 +2,7 @@
 
 **长篇科幻小说《重返星舰》——完整创作初稿已经写完。**
 
-截至2026-10-10，**引言＋第一至第二十二章，共23篇正文、202,959个汉字**（排除标题和标点），从开篇到结局均已写入GitHub。每一篇具备可阅读的完整章节结构。**尚未完成作者最终审定与全书二次文学编辑；仓库公开不代表作者已经同意正式出版。**
+截至2026-10-10，**引言＋第一至第二十二章，共23篇正文、202,780个汉字**（排除标题和标点），从开篇到结局均已写入GitHub。每一篇具备可阅读的完整章节结构。**尚未完成作者最终审定与全书二次文学编辑；仓库公开不代表作者已经同意正式出版。**
 
 ## 从头开始阅读
 
@@ -11,12 +11,12 @@
 | 00 | [引言](manuscript/zh/00-introduction.md) | 9,583 |
 | 01 | [第01章 · 星舰](manuscript/zh/01-chapter.md) | 9,730 |
 | 02 | [第02章 · 黑洞探索](manuscript/zh/02-chapter.md) | 10,097 |
-| 03 | [第03章 · 空山](manuscript/zh/03-chapter.md) | 12,217 |
+| 03 | [第03章 · 空山](manuscript/zh/03-chapter.md) | 12,048 |
 | 04 | [第04章 · 山沟](manuscript/zh/04-chapter.md) | 8,190 |
 | 05 | [第05章 · 失踪者](manuscript/zh/05-chapter.md) | 8,486 |
 | 06 | [第06章 · 回波](manuscript/zh/06-chapter.md) | 8,266 |
 | 07 | [第07章 · 最初的照片](manuscript/zh/07-chapter.md) | 8,830 |
-| 08 | [第08章 · 留在原地](manuscript/zh/08-chapter.md) | 8,376 |
+| 08 | [第08章 · 留在原地](manuscript/zh/08-chapter.md) | 8,366 |
 | 09 | [第09章 · 封存者](manuscript/zh/09-chapter.md) | 8,862 |
 | 10 | [第10章 · 旧墙之后](manuscript/zh/10-chapter.md) | 8,372 |
 | 11 | [第11章 · 空隙](manuscript/zh/11-chapter.md) | 8,494 |
@@ -31,7 +31,7 @@
 | 20 | [第20章 · 有人必须留下](manuscript/zh/20-chapter.md) | 8,100 |
 | 21 | [第21章 · 返航](manuscript/zh/21-chapter.md) | 8,746 |
 | 22 | [第22章 · 重返星舰](manuscript/zh/22-chapter.md) | 8,406 |
-| **合计** | **23篇完整工作初稿** | **202,959** |
+| **合计** | **23篇完整工作初稿** | **202,780** |
 
 [中文目录与稿件状态](manuscript/zh/README.md) · [真实创作进度](docs/progress.md)
 
