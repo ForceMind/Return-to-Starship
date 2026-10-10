@@ -1,31 +1,37 @@
 # 重返星舰 · Return to Starship
 
-这是一部长篇科幻小说的历史原稿恢复与持续创作项目。三个原始分享对话已经归档，作者原稿、历史修订和正式创作的新稿分别存放，并保留 Git 提交历史。
+这是一部长篇科幻小说的**历史原稿恢复、持续写作和未来网页出版**项目。作者原始文稿、三个公开分享对话的归档、已核实设定、历史助手候选剧情、现阶段新写正文和审校记录均分开保存，原稿及 Git 历史不覆盖。
 
-**当前写作进度（2026-10-10）：** 引言、第一章《星舰》、第二章《黑洞探索》、第三章《空山》均已完成可供阅读的**初稿**，尚未经作者审定。四篇合计41,627个汉字（不计章节标题和标点）。全书后半部的完整路线、关键谜题和结局尚未确定，不能擅自混合历史候选版本。
+## 现在开始阅读
 
-## 开始阅读
+正式阅读顺序从引言开始。**截至2026-10-10，已完成引言及第一至第六章，共七篇初稿，合计66,569汉字（排除章节标题和标点）**。所有章节均尚未经作者审定，不能称为已经定稿或已上线网站。
 
-1. [引言](manuscript/zh/00-introduction.md) — 9,583汉字。林青宇接到李阳来电，五名专家前往秦岭空山基地
-2. [第一章 · 星舰](manuscript/zh/01-chapter.md) — 9,730汉字。龙计划、光压航行与46.7光年外的米克号；海兰星灾难
-3. [第二章 · 黑洞探索](manuscript/zh/02-chapter.md) — 10,097汉字。五艘探索者、库克失联、利菲克与瑞娜的冲突
-4. [第三章 · 空山](manuscript/zh/03-chapter.md) — 12,217汉字。五位专家在基地核查证据、质疑八百米高度推断，次晨进入实地复核阶段
+| 顺序 | 阅读 | 正文汉字 | 写作进度 |
+| --- | --- | ---: | --- |
+| 00 | [引言](manuscript/zh/00-introduction.md) | 9,583 | 林青宇收到白球报告，五名专家进入秦岭空山基地 |
+| 01 | [第一章 · 星舰](manuscript/zh/01-chapter.md) | 9,730 | 龙计划、光压推进、远方米克号与海兰灾难 |
+| 02 | [第二章 · 黑洞探索](manuscript/zh/02-chapter.md) | 10,097 | 库克五号失联、瑞娜与利菲克冲突 |
+| 03 | [第三章 · 空山](manuscript/zh/03-chapter.md) | 12,217 | 研究组复核证据层级，决定赴山沟现场 |
+| 04 | [第四章 · 山沟](manuscript/zh/04-chapter.md) | 8,190 | 实地勘测、影像来源、雨中安全撤离 |
+| 05 | [第五章 · 失踪者](manuscript/zh/05-chapter.md) | 8,486 | 米克号公布失联事实，启动独立调查 |
+| 06 | [第六章 · 回波](manuscript/zh/06-chapter.md) | 8,266 | 非接触测量出现需复核的弱次级返回；首次发现者影像材料到达 |
 
-章节目录与状态见 [manuscript/zh/README.md](manuscript/zh/README.md)。四篇目前均为助手初稿，提交 GitHub 不等于作者正式审定，也不等于已公开发布阅读网站。
+[查看完整章节目录](manuscript/zh/README.md)。
 
-## 作者原稿与资料
+## 原始资料及创作记录
 
-- [来源索引](sources/source-index.md) · [作者原始开头](sources/original-manuscripts/S1-author-opening.txt) · [三个原始分享对话归档](sources/conversations/)
-- [故事梗概](docs/story-summary.md) · [历史版本大纲](docs/complete-outline.md)
-- [正式设定（唯一入口）](docs/canon.md) · [世界观](docs/worldbuilding.md) · [人物](docs/characters.md) · [时间线](docs/timeline.md)
-- [作者决定](docs/decisions.md) · [冲突与待决](docs/conflicts.md) · [写作计划](docs/chapter-plan.md)
-- [引言审校](docs/introduction-review.md) · [第一章审校](docs/chapter-01-review.md) · [第二章审校](docs/chapter-02-review.md) · [第三章审校](docs/chapter-03-review.md) · [草稿连续性](docs/draft-continuity.md)
-- [项目进度](docs/progress.md) · [后续接管说明](docs/NEXT_SESSION_HANDOFF.md)
+- [来源索引](sources/source-index.md) · [作者原稿独立存档](sources/original-manuscripts/S1-author-opening.txt) · [三个历史分享对话](sources/conversations/)
+- [故事梗概](docs/story-summary.md) · [完整大纲历史版本](docs/complete-outline.md) · [已核实设定（唯一入口）](docs/canon.md)
+- [人物](docs/characters.md) · [世界观](docs/worldbuilding.md) · [时间线](docs/timeline.md) · [作者决定](docs/decisions.md) · [冲突与待决](docs/conflicts.md)
+- [新稿连续性](docs/draft-continuity.md) · [章节计划](docs/chapter-plan.md) · [创作进度](docs/progress.md) · [接管说明](docs/NEXT_SESSION_HANDOFF.md)
+- 审校记录：[引言](docs/introduction-review.md)、[01](docs/chapter-01-review.md)、[02](docs/chapter-02-review.md)、[03](docs/chapter-03-review.md)、[04](docs/chapter-04-review.md)、[05](docs/chapter-05-review.md)、[06](docs/chapter-06-review.md)
 
-## 长期目标
+## 核心创作原则
 
-完整写完并审校全书，然后依 [网页阅读器规划](web/README.md) 制作可以公开访问的阅读网页，提供章节目录、连续阅读、手机适配、主题和字号调整、阅读位置保存。
+**只将可核实的作者原稿及其明确批准的设定视为正式 canon**。新增场景按初稿处理，存于章节及 `draft-continuity.md`，不能倒推为历史作者设定。不得将互相冲突的历史A/B/C候选后续拼接成唯一真相。库克下落、白球真实身份、海克关闭睿海动机、瑞娜责任与双线时间关系尚未确定，不得擅自宣称已获作者批准。
 
-历史A/B/C三条候选后续路线均仍在档案中，**不是已经获得作者确认的统一剧情**。白球身份、库克命运、睿海关闭动机、瑞娜责任及米克日记内容等未定事项不可冒充原稿事实。
+另一部有关外星小镇、家庭AI与儿童选拔的构思及《返回的人》误稿完全排除。
 
-禁止将外星小镇、儿童选拔或此前《返回的人》误稿混入本书。
+## 最终阅读网页
+
+完整作品最终制作公开阅读网页，正文将由 `manuscript/zh/` 的**作者确认可公开版本**提供，支持章节导航、移动端、深浅主题、字体行距及阅读进度。当前 [网页计划](web/README.md) 仍在规划阶段，**还没有开发或发布网站**。
