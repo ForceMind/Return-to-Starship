@@ -1,6 +1,6 @@
 # 第二章《黑洞探索》初稿审校｜2026-10-10
 
-稿件：`manuscript/zh/02-chapter.md`。状态：**助手续写初稿，尚未经作者审定**。远程核对修订后约10,104个汉字，不计标题与标点。主要依据为 `sources/original-manuscripts/S1-author-opening.txt` 的“黑洞探索”段。没有更改来源文稿。
+稿件：`manuscript/zh/02-chapter.md`。状态：**助手续写初稿，尚未经作者审定**。远程核对修订后约10,097个汉字，不计标题与标点。主要依据为 `sources/original-manuscripts/S1-author-opening.txt` 的“黑洞探索”段。没有更改来源文稿。
 
 ## 原始事件保留核查
 
