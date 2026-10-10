@@ -4,7 +4,7 @@
 
 ## 正文阅读
 
-**截至2026-10-10，已完成引言及第一至第十二章，共13篇完整工作初稿，累计118,288汉字。** 字数排除章节标题、标点与空白。**初稿未经作者审定；仓库公开并不等于正式出版或读者网站已经上线。**
+**截至2026-10-10，已完成引言及第一至第十五章，共16篇完整工作初稿，累计144,754汉字。** 字数排除章节标题、标点与空白。**初稿未经作者审定；仓库公开并不等于正式出版或读者网站已经上线。**
 
 | 顺序 | 章节 | 汉字数 |
 | --- | --- | ---: |
@@ -21,7 +21,10 @@
 | 10 | [第十章·旧墙之后](manuscript/zh/10-chapter.md) | 8,372 |
 | 11 | [第十一章·空隙](manuscript/zh/11-chapter.md) | 8,494 |
 | 12 | [第十二章·还没有名字的地方](manuscript/zh/12-chapter.md) | 8,785 |
-| **总计** | **13篇待审初稿** | **118,288** |
+| 13 | [第十三章·见证人](manuscript/zh/13-chapter.md) | 8,664 |
+| 14 | [第十四章·重量](manuscript/zh/14-chapter.md) | 9,463 |
+| 15 | [第十五章·第三种状态](manuscript/zh/15-chapter.md) | 8,339 |
+| **总计** | **16篇待审初稿** | **144,754** |
 
 [阅读目录与状态](manuscript/zh/README.md) · [最新项目进度](docs/progress.md)
 
@@ -31,8 +34,8 @@
 - [正式设定（唯一canon）](docs/canon.md) · [故事梗概](docs/story-summary.md) · [历史候选大纲](docs/complete-outline.md)
 - [世界观](docs/worldbuilding.md) · [人物](docs/characters.md) · [时间线](docs/timeline.md)
 - [作者决定](docs/decisions.md) · [冲突](docs/conflicts.md) · [待审新增剧情连续性](docs/draft-continuity.md)
-- [章节创作计划](docs/chapter-plan.md) · [第十三章计划](docs/chapter-13-plan.md) · [最新接管说明](docs/NEXT_SESSION_HANDOFF.md)
-- [第十一章审校](docs/chapter-11-review.md) · [第十二章审校](docs/chapter-12-review.md)
+- [章节创作计划](docs/chapter-plan.md) · [第十六章计划](docs/chapter-16-plan.md) · [最新接管说明](docs/NEXT_SESSION_HANDOFF.md)
+- [第十三章审校](docs/chapter-13-review.md) · [第十四章审校](docs/chapter-14-review.md) · [第十五章审校](docs/chapter-15-review.md)
 
 必须保护的未知事项：秦岭白球真实身份、与米克号五号探索者的关系、库克命运、海克关闭睿海的动机、旧舰长米克的死亡责任、瑞娜责任、父亲古语日记内容及双线时空关系。**历史A/B/C不同候选结局尚未由作者选定，不可拼成已经确认的真相。**
 
