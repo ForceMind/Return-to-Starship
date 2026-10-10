@@ -1,6 +1,6 @@
 # 第一章《星舰》初稿审校｜2026-10-10
 
-稿件：`manuscript/zh/01-chapter.md`。状态：**助手续写初稿，尚未经作者审定**。经远程写入与复核，本稿约9,735个汉字，不计标题与标点。以来源原稿的“星舰”段为核心扩写，不覆盖 `sources/original-manuscripts/S1-author-opening.txt`。
+稿件：`manuscript/zh/01-chapter.md`。状态：**助手续写初稿，尚未经作者审定**。经远程写入与复核，本稿约9,730个汉字，不计标题与标点。以来源原稿的“星舰”段为核心扩写，不覆盖 `sources/original-manuscripts/S1-author-opening.txt`。
 
 ## 结构与阅读连续性
 
