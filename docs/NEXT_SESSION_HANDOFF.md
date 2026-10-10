@@ -1,19 +1,19 @@
 # 《重返星舰》下一对话接管说明
 
-交接日期：2026-10-10。作者明确要求本对话完成前期恢复与仓库完善，由另一对话继续长期小说创作。本项目不是从零构思，也不是外星小镇故事。仓库： https://github.com/ForceMind/Return-to-Starship ，默认分支main，当前公开；每次接手须先读取真实最新提交与文件，不能将本说明中的历史状态当作永远不变。
+交接日期：2026-10-10，续写状态同步于2026-10-10。项目先由 Work 完成前期恢复与引言初稿，作者随后明确要求“仓库我都处理好了，你可以继续了”。现在第一、二章也已续写并提交。本项目不是从零构思，也不是外星小镇故事。仓库：https://github.com/ForceMind/Return-to-Starship ，默认分支main，当前公开；每次接手必须读取最新远程提交和文件。
 
 ## 已完成且可核验的成果
 
 1. 三个历史分享对话的当前可访问正文已归档，合计40条消息，作者与助手发言分开；定位见sources/source-index.md，全文在sources/conversations/。
 2. 作者原始开头三节“序章、星舰、黑洞探索”独立保存在sources/original-manuscripts/S1-author-opening.txt。原始文字及旧序章片段未覆盖，原有Git历史保留。
 3. 已建立故事梗概、世界观、人物、时间线、正式设定30项、历史候选大纲、作者决定、冲突、章节工作计划及网页计划。
-4. 作者于2026-10-10明确授权正式起笔。引言完整初稿现位于manuscript/zh/00-introduction.md，正文9583汉字，已做文学和设定审校；尚未经作者审定。审校记录为docs/introduction-review.md。
+4. 作者于2026-10-10授权正式起笔并随后继续创作。00引言初稿9,583汉字；01第一章《星舰》9,735汉字；02第二章《黑洞探索》10,104汉字，三篇合计29,422汉字，**均为待作者审定初稿**。对应正文在manuscript/zh/，独立审校文件在docs/。
 5. 原稿两个主线已识别：地球上的林青宇调查秦岭白球并进入空山基地；远方米克号为海兰幸存者寻找家园，库克在黑洞探索中失踪，利菲克与瑞娜的权力及亲情冲突展开。
 6. 作者再次确认整部小说最终做成可公开访问的阅读网页。本轮只有内容准备与规划，没有开发或发布网站。
 
 ## 首次读取顺序
 
-README.md → docs/progress.md → docs/decisions.md（尤其D11—D13）→ docs/canon.md → sources/original-manuscripts/S1-author-opening.txt → manuscript/zh/00-introduction.md → docs/introduction-review.md → docs/chapter-plan.md → docs/complete-outline.md与docs/conflicts.md → web/README.md。查历史版本或某条决定时，沿来源索引回到具体消息。
+README.md → docs/progress.md → docs/decisions.md（尤其D11—D14）→ docs/canon.md → sources/original-manuscripts/S1-author-opening.txt → manuscript/zh/00-introduction.md、01-chapter.md、02-chapter.md → docs/introduction-review.md、chapter-01-review.md、chapter-02-review.md → docs/chapter-plan.md → docs/complete-outline.md与docs/conflicts.md → web/README.md。追溯决定时通过sources/source-index.md返回原消息。
 
 ## 正式创作的授权和边界
 
@@ -21,7 +21,7 @@ README.md → docs/progress.md → docs/decisions.md（尤其D11—D13）→ doc
 
 引言从林青宇假寐时被李阳来电唤醒开始，经过两份白球报告、五专家抽调、扣证件、乘机、山林与雷区，止于进入空山基地。不得替换成引力波报告、海底坐标或时间回滚开篇。初稿可依据作者意见修订，修订保留版本，不覆盖来源原文。
 
-下一篇工作题为第一章“星舰”，文件预定manuscript/zh/01-chapter.md，目前不存在。前段用清晰回溯交代林青宇入所时的龙计划、光压研究和材料瓶颈，后段转到46.7光年外的孤舰与海兰灾难，建立两线探索者的呼应。不要让读者误以为引言后林青宇已返回研究所，也不要借基地新场景提前创作尚未确定的解码结果。后续第二章工作包“黑洞探索”见chapter-plan。
+第一章《星舰》与第二章《黑洞探索》已经分别保存为manuscript/zh/01-chapter.md、02-chapter.md，并且实际远程核验成功。第一章明确采用研究所经历的回叙，不意味着林青宇已经从空山基地返回；第二章按原稿叙述到五号失联、黑洞异常影像消失及瑞娜离场，未擅自确认库克生死、AI罪责或白球身份。下一章需要进入原稿S1-M01没有覆盖的新情节范围；建议先进行地球空山基地的研究场景，但不能把历史互相冲突的A/B/C候选后续当作既成剧情。
 
 ## 关键设定与尚未确定内容
 
@@ -39,4 +39,4 @@ README.md → docs/progress.md → docs/decisions.md（尤其D11—D13）→ doc
 
 全书完成后制作阅读网页：作品首页、目录、引言首位、连续阅读与上下章、手机及电脑适配、深浅主题、字号及行距调整、阅读进度保存、持续同步。内容源为manuscript/zh/，来源聊天与候选大纲不进入读者目录。技术与托管在网站阶段按实际条件选，不声称存在尚未部署的网址。
 
-接管后先报告读到的真实状态，再按作者的具体指令修订引言或继续第一章。不重做已经完成的恢复，不将助手建议伪装成作者原设定。
+接管后先报告实际远程状态，再按作者新指令对00引言、01星舰、02黑洞探索进行修订，或按经确认的原设定推进第三章。不要重做历史恢复，不要把助手建议、章节初稿中的新场景或互相冲突的历史候选当作作者既定设定。
