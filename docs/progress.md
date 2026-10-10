@@ -6,9 +6,9 @@
 |---|---|
 | 历史来源 | 三个分享对话已归档40条文字消息；作者原始序章／星舰／黑洞探索独立保留 |
 | 引言 | `manuscript/zh/00-introduction.md`，9,583汉字，已审校初稿 |
-| 第一章《星舰》 | `manuscript/zh/01-chapter.md`，9,735汉字，新写并完成基础审校 |
-| 第二章《黑洞探索》 | `manuscript/zh/02-chapter.md`，10,104汉字，新写并完成基础审校 |
-| 三篇累计 | **29,422汉字**，汉字数不含标题、标点；不是全书总完成量 |
+| 第一章《星舰》 | `manuscript/zh/01-chapter.md`，9,730汉字，新写并完成基础审校 |
+| 第二章《黑洞探索》 | `manuscript/zh/02-chapter.md`，10,097汉字，新写并完成基础审校 |
+| 三篇累计 | **29,410汉字**，汉字数不含标题、标点；不是全书总完成量 |
 | 审校 | `docs/introduction-review.md`、`chapter-01-review.md`、`chapter-02-review.md` |
 | 作者原稿 | `sources/original-manuscripts/S1-author-opening.txt` 未覆盖；正式设定仍为 `docs/canon.md` |
 | 后半部路线 | 历史A/B/C候选继续分离，白球与库克真相等未知事项未虚构 |
