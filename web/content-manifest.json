@@ -1,0 +1,546 @@
+{
+  "schema_version": 1,
+  "project_id": "return-to-starship",
+  "locales": [
+    "zh-CN",
+    "en"
+  ],
+  "title": {
+    "zh-CN": "重返星舰",
+    "en": "Return to Starship"
+  },
+  "canonical_locale": "zh-CN",
+  "note": "Editorial manifest only. No contents are approved for public release. English titles are provisional and English chapter files do not exist yet.",
+  "chapter_count": 23,
+  "chapters": [
+    {
+      "id": "00",
+      "order": 0,
+      "title": {
+        "zh-CN": "引言",
+        "en": "Introduction"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/00-introduction.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "01",
+      "order": 1,
+      "title": {
+        "zh-CN": "星舰",
+        "en": "The Starship"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/01-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "02",
+      "order": 2,
+      "title": {
+        "zh-CN": "黑洞探索",
+        "en": "The Black Hole Expedition"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/02-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "03",
+      "order": 3,
+      "title": {
+        "zh-CN": "空山",
+        "en": "Kongshan"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/03-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "04",
+      "order": 4,
+      "title": {
+        "zh-CN": "山沟",
+        "en": "The Ravine"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/04-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "05",
+      "order": 5,
+      "title": {
+        "zh-CN": "失踪者",
+        "en": "The Missing"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/05-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "06",
+      "order": 6,
+      "title": {
+        "zh-CN": "回波",
+        "en": "Echoes"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/06-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "07",
+      "order": 7,
+      "title": {
+        "zh-CN": "最初的照片",
+        "en": "The First Photograph"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/07-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "08",
+      "order": 8,
+      "title": {
+        "zh-CN": "留在原地",
+        "en": "Staying Put"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/08-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "09",
+      "order": 9,
+      "title": {
+        "zh-CN": "封存者",
+        "en": "The Archivist"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/09-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "10",
+      "order": 10,
+      "title": {
+        "zh-CN": "旧墙之后",
+        "en": "Behind the Old Wall"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/10-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "11",
+      "order": 11,
+      "title": {
+        "zh-CN": "空隙",
+        "en": "The Gap"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/11-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "12",
+      "order": 12,
+      "title": {
+        "zh-CN": "还没有名字的地方",
+        "en": "The Unnamed World"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/12-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "13",
+      "order": 13,
+      "title": {
+        "zh-CN": "见证人",
+        "en": "The Witness"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/13-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "14",
+      "order": 14,
+      "title": {
+        "zh-CN": "重量",
+        "en": "Weight"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/14-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "15",
+      "order": 15,
+      "title": {
+        "zh-CN": "第三种状态",
+        "en": "A Third State"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/15-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "16",
+      "order": 16,
+      "title": {
+        "zh-CN": "静默的刻度",
+        "en": "The Silent Measure"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/16-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "17",
+      "order": 17,
+      "title": {
+        "zh-CN": "最后的开关",
+        "en": "The Last Switch"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/17-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "18",
+      "order": 18,
+      "title": {
+        "zh-CN": "另一端",
+        "en": "The Other End"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/18-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "19",
+      "order": 19,
+      "title": {
+        "zh-CN": "四十六点七",
+        "en": "Forty-Six Point Seven"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/19-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "20",
+      "order": 20,
+      "title": {
+        "zh-CN": "有人必须留下",
+        "en": "Someone Must Stay"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/20-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "21",
+      "order": 21,
+      "title": {
+        "zh-CN": "返航",
+        "en": "The Return"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/21-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    },
+    {
+      "id": "22",
+      "order": 22,
+      "title": {
+        "zh-CN": "重返星舰",
+        "en": "Return to Starship"
+      },
+      "title_en_status": "working_translation",
+      "content": {
+        "zh-CN": "manuscript/zh/22-chapter.md",
+        "en": null
+      },
+      "editorial": {
+        "zh-CN": "draft_under_review",
+        "en": "not_started"
+      },
+      "approved_source_zh_sha": null,
+      "translation_review": "not_started",
+      "publish_approved": {
+        "zh-CN": false,
+        "en": false
+      }
+    }
+  ]
+}
