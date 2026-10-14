@@ -50,10 +50,13 @@ function checkIndex(relative, expected) {
     return;
   }
   let checked = 0;
+  const seen = new Set();
   for (const line of source.split(/\r?\n/)) {
     const row = line.match(/^\|\s*(\d{2})\s*\|/);
     if (!row) continue;
     const id = row[1];
+    if (seen.has(id)) errors.push(relative + ': duplicate chapter ID ' + id);
+    seen.add(id);
     const found = expected.find(item => item.id === id);
     if (!found) {
       errors.push(relative + ': unexpected chapter ID ' + id);
@@ -138,6 +141,11 @@ for (let index = 0; index < 23; index += 1) {
     warnings.push(id + ': inspect possible metanarration in novel text');
   }
 
+  const workingSha = gitBlobSha(source);
+  if (meta.editorial?.['zh-CN'] === 'author_approved'
+      && meta.approved_source_zh_sha !== workingSha) {
+    errors.push(id + ': approved Chinese source SHA no longer matches manuscript');
+  }
   if (meta.editorial?.['zh-CN'] === 'draft_under_review'
       && meta.approved_source_zh_sha !== null) {
     errors.push(id + ': unapproved draft must not have approved source SHA');
@@ -155,7 +163,7 @@ for (let index = 0; index < 23; index += 1) {
   }
 
   chapters.push({ id, title: meta.title['zh-CN'], hanzi, path: relative,
-    working_blob_sha: gitBlobSha(source) });
+    working_blob_sha: workingSha });
 }
 
 const totalHanzi = chapters.reduce((sum, chapter) => sum + chapter.hanzi, 0);
@@ -182,7 +190,8 @@ const report = {
   errors,
   warnings,
   editorial_only: true,
-  author_approved: false
+  author_approved: chapters.length === 23 && manifest.chapters.every(item =>
+    item.editorial?.['zh-CN'] === 'author_approved')
 };
 
 if (process.argv.includes('--json')) {
@@ -195,7 +204,7 @@ if (process.argv.includes('--json')) {
   for (const message of errors) console.error('ERROR ' + message);
   for (const message of warnings) console.warn('WARN  ' + message);
   if (!errors.length) {
-    console.log('Structural checks passed. Author approval still required.');
+    console.log('Structural checks passed. Publication still requires explicit release permission.');
   }
 }
 
