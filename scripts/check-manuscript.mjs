@@ -137,7 +137,7 @@ for (let index = 0; index < 23; index += 1) {
   if (curlySingle[0] !== curlySingle[1]) {
     errors.push(id + ': unbalanced Chinese single quotation marks');
   }
-  if (/作者原稿|本章|上一章|作品书名/u.test(body)) {
+  if (/作者原稿|本章|上一章|作品书名|读者|第[0-9〇零一二三四五六七八九十百]+章/u.test(body)) {
     warnings.push(id + ': inspect possible metanarration in novel text');
   }
 
