@@ -1,6 +1,6 @@
 # 重返星舰 · Return to Starship
 
-原创长篇科幻小说。引言及第一至第二十二章已写至结局，共23篇正文、211,379个汉字（不计标题、标点和空白）。
+原创长篇科幻小说。引言及第一至第二十二章已写至结局，共23篇正文、211,356个汉字（不计标题、标点和空白）。
 
 中文稿正在文学修订和连续性审校。当前D路线是完整创作版本，尚未经作者最终审定；仓库公开不代表作品已经正式出版。
 
@@ -25,19 +25,19 @@
 | 08 | [第八章　留在原地](manuscript/zh/08-chapter.md) | 8,366 |
 | 09 | [第九章　封存者](manuscript/zh/09-chapter.md) | 9,573 |
 | 10 | [第十章　旧墙之后](manuscript/zh/10-chapter.md) | 8,813 |
-| 11 | [第十一章　空隙](manuscript/zh/11-chapter.md) | 8,764 |
+| 11 | [第十一章　空隙](manuscript/zh/11-chapter.md) | 8,383 |
 | 12 | [第十二章　还没有名字的地方](manuscript/zh/12-chapter.md) | 8,889 |
 | 13 | [第十三章　见证人](manuscript/zh/13-chapter.md) | 8,245 |
 | 14 | [第十四章　重量](manuscript/zh/14-chapter.md) | 9,361 |
 | 15 | [第十五章　第三种状态](manuscript/zh/15-chapter.md) | 8,746 |
-| 16 | [第十六章　静默的刻度](manuscript/zh/16-chapter.md) | 8,645 |
+| 16 | [第十六章　静默的刻度](manuscript/zh/16-chapter.md) | 8,731 |
 | 17 | [第十七章　最后的开关](manuscript/zh/17-chapter.md) | 8,579 |
-| 18 | [第十八章　另一端](manuscript/zh/18-chapter.md) | 8,279 |
+| 18 | [第十八章　另一端](manuscript/zh/18-chapter.md) | 8,551 |
 | 19 | [第十九章　四十六点七](manuscript/zh/19-chapter.md) | 8,860 |
 | 20 | [第二十章　有人必须留下](manuscript/zh/20-chapter.md) | 8,868 |
 | 21 | [第二十一章　返航](manuscript/zh/21-chapter.md) | 11,833 |
 | 22 | [第二十二章　重返星舰](manuscript/zh/22-chapter.md) | 9,422 |
-| **合计** | **23篇待审工作稿** | **211,379** |
+| **合计** | **23篇待审工作稿** | **211,356** |
 
 [中文目录](manuscript/zh/README.md) · [当前进度](docs/progress.md) · [编辑记录](docs/editorial-pass02-20261010.md)
 
@@ -50,7 +50,7 @@
 
 ## 编辑与数字阅读
 
-2026-10-19继续修订中段调查与后半部救援：12—14章补实观测失败、证词与私人材料交出的后果，20—22章补实身份核验、许可边界、连续能源预算、实际回收及结局知识边界。保留23篇结构和现有D路线结局。全书逐句终审仍在进行。具体修改、检查范围和待办见[冻结前核查](docs/zh-prepublication-audit-20261014.md)；接手工程请读[交接说明](docs/NEXT_SESSION_HANDOFF.md)。
+2026-10-19继续修订中段调查与后半部救援：11—18章补实救援后果、调查取证与受控实验，20—22章补实身份核验、许可边界、连续能源预算、实际回收及结局知识边界。保留23篇结构和现有D路线结局。全书逐句终审仍在进行。具体修改、检查范围和待办见[冻结前核查](docs/zh-prepublication-audit-20261014.md)；接手工程请读[交接说明](docs/NEXT_SESSION_HANDOFF.md)。
 
 [网页阅读器](web/README.md)已实现中文本地审阅预览，23篇Markdown自动构建，具备主题、排版、目录和阅读位置保存。6项构建/发布边界测试通过；真实浏览器验收与生产部署尚未进行。中文稳定并经作者确认后，再按[双语出版计划](docs/bilingual-publication-plan.md)制作英文学译；当前英文正文0/23。
 
