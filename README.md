@@ -1,6 +1,6 @@
 # 重返星舰 · Return to Starship
 
-原创长篇科幻小说。引言及第一至第二十二章已写至结局，共23篇正文、211,039个汉字（不计标题、标点和空白）。
+原创长篇科幻小说。引言及第一至第二十二章已写至结局，共23篇正文、209,451个汉字（不计标题、标点和空白）。
 
 中文稿正在文学修订和连续性审校。当前D路线是完整创作版本，尚未经作者最终审定；仓库公开不代表作品已经正式出版。
 
@@ -17,12 +17,12 @@
 | 00 | [引言](manuscript/zh/00-introduction.md) | 9,595 |
 | 01 | [第一章　星舰](manuscript/zh/01-chapter.md) | 9,879 |
 | 02 | [第二章　黑洞探索](manuscript/zh/02-chapter.md) | 10,173 |
-| 03 | [第三章　空山](manuscript/zh/03-chapter.md) | 12,048 |
-| 04 | [第四章　山沟](manuscript/zh/04-chapter.md) | 8,338 |
-| 05 | [第五章　失踪者](manuscript/zh/05-chapter.md) | 8,581 |
-| 06 | [第六章　回波](manuscript/zh/06-chapter.md) | 8,214 |
-| 07 | [第七章　最初的照片](manuscript/zh/07-chapter.md) | 8,991 |
-| 08 | [第八章　留在原地](manuscript/zh/08-chapter.md) | 8,366 |
+| 03 | [第三章　空山](manuscript/zh/03-chapter.md) | 11,018 |
+| 04 | [第四章　山沟](manuscript/zh/04-chapter.md) | 8,366 |
+| 05 | [第五章　失踪者](manuscript/zh/05-chapter.md) | 8,261 |
+| 06 | [第六章　回波](manuscript/zh/06-chapter.md) | 8,072 |
+| 07 | [第七章　最初的照片](manuscript/zh/07-chapter.md) | 8,768 |
+| 08 | [第八章　留在原地](manuscript/zh/08-chapter.md) | 8,465 |
 | 09 | [第九章　封存者](manuscript/zh/09-chapter.md) | 9,573 |
 | 10 | [第十章　旧墙之后](manuscript/zh/10-chapter.md) | 8,813 |
 | 11 | [第十一章　空隙](manuscript/zh/11-chapter.md) | 8,383 |
@@ -37,7 +37,7 @@
 | 20 | [第二十章　有人必须留下](manuscript/zh/20-chapter.md) | 8,868 |
 | 21 | [第二十一章　返航](manuscript/zh/21-chapter.md) | 11,833 |
 | 22 | [第二十二章　重返星舰](manuscript/zh/22-chapter.md) | 9,422 |
-| **合计** | **23篇待审工作稿** | **211,039** |
+| **合计** | **23篇待审工作稿** | **209,451** |
 
 [中文目录](manuscript/zh/README.md) · [当前进度](docs/progress.md) · [编辑记录](docs/editorial-pass02-20261010.md)
 
@@ -50,7 +50,7 @@
 
 ## 编辑与数字阅读
 
-2026-10-19继续修订中段调查与后半部救援：开篇补实人物相处与外围设备伏笔，11—18章补实救援后果、调查取证与受控实验，20—22章补实身份核验、许可边界、连续能源预算、实际回收及结局知识边界。保留23篇结构和现有D路线结局。全书逐句终审仍在进行。具体修改、检查范围和待办见[冻结前核查](docs/zh-prepublication-audit-20261014.md)；接手工程请读[交接说明](docs/NEXT_SESSION_HANDOFF.md)。
+23篇已完成本轮第二轮连读与实质修订，现进入第三轮统一审校。保留原稿核心事件与当前D路线结局；未获作者最终审定。具体修改、检查范围和待办见[冻结前核查](docs/zh-prepublication-audit-20261014.md)；接手工程请读[交接说明](docs/NEXT_SESSION_HANDOFF.md)。
 
 [网页阅读器](web/README.md)已实现中文本地审阅预览，23篇Markdown自动构建，具备主题、排版、目录和阅读位置保存。6项构建/发布边界测试通过；真实浏览器验收与生产部署尚未进行。中文稳定并经作者确认后，再按[双语出版计划](docs/bilingual-publication-plan.md)制作英文学译；当前英文正文0/23。
 
