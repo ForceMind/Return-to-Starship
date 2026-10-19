@@ -1,0 +1,12 @@
+{
+  "name": "return-to-starship-reader",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "node build.mjs --preview",
+    "watch": "node watch.mjs",
+    "build": "node build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

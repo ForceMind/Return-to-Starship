@@ -1,0 +1,4 @@
+web/.preview/
+web/dist/
+web/.test-output/
+node_modules/

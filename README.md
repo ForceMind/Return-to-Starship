@@ -52,6 +52,6 @@
 
 2026-10-19继续修订第09、10、15章的档案调查、人物生活及工程操作场景，保留23篇结构和原有结局。全书逐句终审仍在进行。具体修改、检查范围和待办见[冻结前核查](docs/zh-prepublication-audit-20261014.md)；接手工程请读[交接说明](docs/NEXT_SESSION_HANDOFF.md)。
 
-[网页阅读器](web/README.md)采用仓库Markdown作为内容源，开发预览与正式出版构建分开。生产部署尚未进行。中文稳定并经作者确认后，再按[双语出版计划](docs/bilingual-publication-plan.md)制作英文学译；当前英文正文0/23。
+[网页阅读器](web/README.md)已实现中文本地审阅预览，23篇Markdown自动构建，具备主题、排版、目录和阅读位置保存。6项构建/发布边界测试通过；真实浏览器验收与生产部署尚未进行。中文稳定并经作者确认后，再按[双语出版计划](docs/bilingual-publication-plan.md)制作英文学译；当前英文正文0/23。
 
 本地检查：`node scripts/check-manuscript.mjs`。结构检查不代替文学审校或作者审批。
