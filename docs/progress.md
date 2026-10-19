@@ -28,7 +28,7 @@
 
 6项Node验收通过；实际无批准的正式构建被拒绝，无dist产物；watch已观察到源变化重建，已停止进程。**真实浏览器视觉/交互尚未验收**（环境缺少Sites规定的control-browser）；未启动服务器、未部署或注册托管。详见[阅读器README](../web/README.md)。
 
-第二批提交 [`681078f`](https://github.com/ForceMind/Return-to-Starship/commit/681078f87273b6894c243985687c7e2b9059e415) 已回读全部11个变更文件，全文一致。阅读器源码提交 [`3309305`](https://github.com/ForceMind/Return-to-Starship/commit/33093054b93ce5c0aef6c70a99eb424106eaa71c) 已回读全部15文件一致。第三批正文修改待提交后另验。
+第二批提交 [`681078f`](https://github.com/ForceMind/Return-to-Starship/commit/681078f87273b6894c243985687c7e2b9059e415) 已回读全部11个变更文件，全文一致。阅读器源码提交 [`3309305`](https://github.com/ForceMind/Return-to-Starship/commit/33093054b93ce5c0aef6c70a99eb424106eaa71c) 已回读全部15文件一致。第三批0ff087c已回读13个变更文件一致，并另按该提交回读全部23篇远程正文，汉字数与工作blob SHA逐篇匹配，合计209,891字。电子回读不代替文学精读。
 
 ## 可持续编辑任务
 
@@ -50,3 +50,6 @@
 | 2026-10-14 | 01/22文学与知识边界；20/21亚目与接口；结构脚本；208,026字 | [冻结前核查](zh-prepublication-audit-20261014.md) |
 
 各轮都是局部或专项修订；均未构成作者全书审定。源文件版本可追溯Git提交，历史数字不能作为当前全文统计。
+
+
+验收报告#2：2026-10-19 14:28:58北京时间，距报告#1 14分10秒。本次会话文学全文精读6篇，另17篇待做；下一入口20全章→21→22，保留19的方法专项成果。全部实际成果已存Git，交接见NEXT_SESSION_HANDOFF；尚未完成全书终审/作者审阅包/正式出版。
