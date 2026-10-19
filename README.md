@@ -1,6 +1,6 @@
 # 重返星舰 · Return to Starship
 
-原创长篇科幻小说。引言及第一至第二十二章已写至结局，共23篇正文、209,451个汉字（不计标题、标点和空白）。
+原创长篇科幻小说。引言及第一至第二十二章已写至结局，共23篇正文、209,543个汉字（不计标题、标点和空白）。
 
 中文稿正在文学修订和连续性审校。当前D路线是完整创作版本，尚未经作者最终审定；仓库公开不代表作品已经正式出版。
 
@@ -22,7 +22,7 @@
 | 05 | [第五章　失踪者](manuscript/zh/05-chapter.md) | 8,261 |
 | 06 | [第六章　回波](manuscript/zh/06-chapter.md) | 8,072 |
 | 07 | [第七章　最初的照片](manuscript/zh/07-chapter.md) | 8,768 |
-| 08 | [第八章　留在原地](manuscript/zh/08-chapter.md) | 8,465 |
+| 08 | [第八章　留在原地](manuscript/zh/08-chapter.md) | 8,464 |
 | 09 | [第九章　封存者](manuscript/zh/09-chapter.md) | 9,573 |
 | 10 | [第十章　旧墙之后](manuscript/zh/10-chapter.md) | 8,813 |
 | 11 | [第十一章　空隙](manuscript/zh/11-chapter.md) | 8,383 |
@@ -35,9 +35,9 @@
 | 18 | [第十八章　另一端](manuscript/zh/18-chapter.md) | 8,551 |
 | 19 | [第十九章　四十六点七](manuscript/zh/19-chapter.md) | 8,860 |
 | 20 | [第二十章　有人必须留下](manuscript/zh/20-chapter.md) | 8,868 |
-| 21 | [第二十一章　返航](manuscript/zh/21-chapter.md) | 11,833 |
+| 21 | [第二十一章　返航](manuscript/zh/21-chapter.md) | 11,926 |
 | 22 | [第二十二章　重返星舰](manuscript/zh/22-chapter.md) | 9,422 |
-| **合计** | **23篇待审工作稿** | **209,451** |
+| **合计** | **23篇待审工作稿** | **209,543** |
 
 [中文目录](manuscript/zh/README.md) · [当前进度](docs/progress.md) · [编辑记录](docs/editorial-pass02-20261010.md)
 
@@ -46,7 +46,7 @@
 - [作者原始文稿](sources/original-manuscripts/S1-author-opening.txt)、[历史对话](sources/conversations/)及[来源索引](sources/source-index.md)独立保存。
 - [正式设定](docs/canon.md)仅包含已核实的作者原稿事实；[作者决定](docs/decisions.md)管理后续授权。
 - [D路线拟定结局](docs/d-route-ending-register.md)与[草稿连续性](docs/draft-continuity.md)记录当前创作；白球身份、库克命运及旧案责任等答案仍待作者审阅。
-- [历史A/B/C大纲](docs/complete-outline.md)作为创作档案保留，不与当前路线合并。
+- [全书工作大纲及历史A/B/C](docs/complete-outline.md)作为创作档案保留，不与当前路线合并。
 
 ## 编辑与数字阅读
 
