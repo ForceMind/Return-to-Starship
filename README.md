@@ -1,6 +1,6 @@
 # 重返星舰 · Return to Starship
 
-原创长篇科幻小说。引言及第一至第二十二章已写至结局，共23篇正文、208,673个汉字（不计标题、标点和空白）。
+原创长篇科幻小说。引言及第一至第二十二章已写至结局，共23篇正文、208,496个汉字（不计标题、标点和空白）。
 
 中文稿正在文学修订和连续性审校。当前D路线是完整创作版本，尚未经作者最终审定；仓库公开不代表作品已经正式出版。
 
@@ -14,9 +14,9 @@
 
 | 顺序 | 正文 | 汉字数 |
 | --- | --- | ---: |
-| 00 | [引言](manuscript/zh/00-introduction.md) | 9,581 |
-| 01 | [第一章　星舰](manuscript/zh/01-chapter.md) | 9,879 |
-| 02 | [第二章　黑洞探索](manuscript/zh/02-chapter.md) | 10,173 |
+| 00 | [引言](manuscript/zh/00-introduction.md) | 9,588 |
+| 01 | [第一章　星舰](manuscript/zh/01-chapter.md) | 9,696 |
+| 02 | [第二章　黑洞探索](manuscript/zh/02-chapter.md) | 10,172 |
 | 03 | [第三章　空山](manuscript/zh/03-chapter.md) | 10,899 |
 | 04 | [第四章　山沟](manuscript/zh/04-chapter.md) | 8,366 |
 | 05 | [第五章　失踪者](manuscript/zh/05-chapter.md) | 8,261 |
@@ -37,7 +37,7 @@
 | 20 | [第二十章　有人必须留下](manuscript/zh/20-chapter.md) | 9,124 |
 | 21 | [第二十一章　返航](manuscript/zh/21-chapter.md) | 12,199 |
 | 22 | [第二十二章　重返星舰](manuscript/zh/22-chapter.md) | 9,231 |
-| **合计** | **23篇待审工作稿** | **208,673** |
+| **合计** | **23篇待审工作稿** | **208,496** |
 
 [中文目录](manuscript/zh/README.md) · [当前进度](docs/progress.md) · [编辑记录](docs/editorial-pass02-20261010.md)
 
