@@ -10,7 +10,9 @@ export const blobSHA = source => {
   const bytes = Buffer.from(source);
   return crypto.createHash('sha1').update(`blob ${bytes.length}\0`).update(bytes).digest('hex');
 };
-const inline = text => escapeHTML(text).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+const inline = text => escapeHTML(text)
+  .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+  .replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>');
 
 export function renderBody(source) {
   const occurrences = new Map();
@@ -79,13 +81,13 @@ ${preview ? '<meta name="robots" content="noindex,nofollow">' : ''}
 <a class="skip" href="#main">跳到正文</a>
 <header class="topbar"><a class="brand" href="${prefix}index.html">重返星舰<small>RETURN TO STARSHIP</small></a>
 <nav aria-label="阅读工具"><button type="button" id="toc-open">目录</button><button type="button" id="theme" aria-pressed="false">深色</button><details class="settings"><summary>排版</summary><div class="settings-panel">
-<label>字号 <output id="font-value">20</output><input id="font" type="range" min="16" max="30" step="1" value="20"></label>
-<label>行距 <output id="line-value">2</output><input id="line" type="range" min="1.5" max="2.6" step="0.1" value="2"></label>
-<label>宽度 <output id="width-value">720</output><input id="width" type="range" min="560" max="960" step="40" value="720"></label>
+<label for="font">字号 <output id="font-value">20</output><input id="font" type="range" min="16" max="30" step="1" value="20"></label>
+<label for="line">行距 <output id="line-value">2</output><input id="line" type="range" min="1.5" max="2.6" step="0.1" value="2"></label>
+<label for="width">宽度 <output id="width-value">720</output><input id="width" type="range" min="560" max="960" step="40" value="720"></label>
 <button type="button" id="reset-settings">恢复默认</button></div></details></nav></header>
 ${preview ? '<aside class="edition-note">作者审阅预览 · 中文工作稿，尚未定稿</aside>' : ''}
 ${content}
-<dialog id="toc" aria-labelledby="toc-heading"><div class="dialog-top"><h2 id="toc-heading">章节目录</h2><form method="dialog"><button aria-label="关闭目录">关闭</button></form></div><label class="search-label">查找章节<input id="toc-search" type="search" placeholder="编号或篇名"></label><ol class="chapter-list">${links(prefix, id)}</ol></dialog>
+<dialog id="toc" aria-labelledby="toc-heading"><div class="dialog-top"><h2 id="toc-heading">章节目录</h2><form method="dialog"><button aria-label="关闭目录">关闭</button></form></div><label class="search-label">查找章节<input id="toc-search" type="search" placeholder="编号或篇名"></label><p id="toc-status" class="muted" role="status">共23篇</p><ol class="chapter-list">${links(prefix, id)}</ol></dialog>
 <footer class="site-footer">重返星舰 · Return to Starship <span>阅读设置与位置仅保存在此设备</span><button type="button" disabled title="英文文学译本尚未开始">English · 待译</button></footer>
 <script type="application/json" id="book-data">${json}</script></body></html>`;
   }

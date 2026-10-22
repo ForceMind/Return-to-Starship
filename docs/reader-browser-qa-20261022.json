@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "baseline_commit": "a634128ddde04fff2b16faf99d656e62b4261992",
+  "environment": "Cloud Chrome; same-origin iframe viewport widths; not hardware or Safari emulation",
+  "viewport_checks": [
+    {
+      "route": "index.html",
+      "client": 305,
+      "font": null,
+      "reading": 305,
+      "scroll": 305,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "client": 375,
+      "font": null,
+      "reading": 375,
+      "scroll": 375,
+      "width": 390,
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "client": 753,
+      "font": null,
+      "reading": 753,
+      "scroll": 753,
+      "width": 768,
+      "pass": true
+    },
+    {
+      "route": "index.html",
+      "client": 1265,
+      "font": null,
+      "reading": 1040,
+      "scroll": 1265,
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "route": "zh/00.html",
+      "client": 305,
+      "font": "30px",
+      "reading": 265,
+      "scroll": 305,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "route": "zh/00.html",
+      "client": 375,
+      "font": "30px",
+      "reading": 335,
+      "scroll": 375,
+      "width": 390,
+      "pass": true
+    },
+    {
+      "route": "zh/00.html",
+      "client": 753,
+      "font": "30px",
+      "reading": 705,
+      "scroll": 753,
+      "width": 768,
+      "pass": true
+    },
+    {
+      "route": "zh/00.html",
+      "client": 1265,
+      "font": "30px",
+      "reading": 960,
+      "scroll": 1265,
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "route": "zh/21.html",
+      "client": 305,
+      "font": "30px",
+      "reading": 265,
+      "scroll": 305,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "route": "zh/21.html",
+      "client": 375,
+      "font": "30px",
+      "reading": 335,
+      "scroll": 375,
+      "width": 390,
+      "pass": true
+    },
+    {
+      "route": "zh/21.html",
+      "client": 753,
+      "font": "30px",
+      "reading": 705,
+      "scroll": 753,
+      "width": 768,
+      "pass": true
+    },
+    {
+      "route": "zh/21.html",
+      "client": 1265,
+      "font": "30px",
+      "reading": 960,
+      "scroll": 1265,
+      "width": 1280,
+      "pass": true
+    },
+    {
+      "route": "zh/22.html",
+      "client": 305,
+      "font": "30px",
+      "reading": 265,
+      "scroll": 305,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "route": "zh/22.html",
+      "client": 375,
+      "font": "30px",
+      "reading": 335,
+      "scroll": 375,
+      "width": 390,
+      "pass": true
+    },
+    {
+      "route": "zh/22.html",
+      "client": 753,
+      "font": "30px",
+      "reading": 705,
+      "scroll": 753,
+      "width": 768,
+      "pass": true
+    },
+    {
+      "route": "zh/22.html",
+      "client": 1265,
+      "font": "30px",
+      "reading": 960,
+      "scroll": 1265,
+      "width": 1280,
+      "pass": true
+    }
+  ],
+  "dialog_checks": [
+    {
+      "width": "320",
+      "left": 19,
+      "right": 286,
+      "viewport": 320,
+      "closed": true,
+      "pass": true
+    },
+    {
+      "width": "390",
+      "left": 19,
+      "right": 356,
+      "viewport": 390,
+      "closed": true,
+      "pass": true
+    },
+    {
+      "width": "768",
+      "left": 86.5,
+      "right": 666.5,
+      "viewport": 768,
+      "closed": true,
+      "pass": true
+    },
+    {
+      "width": "1280",
+      "left": 342.5,
+      "right": 922.5,
+      "viewport": 1280,
+      "closed": true,
+      "pass": true
+    }
+  ],
+  "scroll_restore": {
+    "before": {
+      "paragraph": "p-951e37228bfa-1",
+      "progress": "98%",
+      "top": -3.109375,
+      "y": 32823
+    },
+    "after": {
+      "paragraph": "p-951e37228bfa-1",
+      "progress": "98%",
+      "top": -3.109375,
+      "y": 32823
+    },
+    "same_paragraph": true
+  },
+  "source_sha256": {
+    "web/build.mjs": "c153ccc2d33d0e9a32a8b9712784170f0db8667d46bb133a3bcb4f5323c065f6",
+    "web/assets/reader.js": "f1b4a3e2f0681d7eb0f619e9eb1253f9048ac348a4031b9d39a0f533a9796b8b",
+    "web/assets/state.js": "a8d20b71d534cffe834b1ddf0f44f6b5e0017e1ce5f80279c2dd5e85bd87ec66",
+    "web/assets/reader.css": "36295af070261c1d94a0c7c037cb473135ed684482360b70f096ab92b679cccc",
+    "web/test/prepare-browser-qa.mjs": "6742bdfbe99c2c1d1c84f290e25ece24649b1b99b8f76ca9262f124277ec68f8"
+  }
+}

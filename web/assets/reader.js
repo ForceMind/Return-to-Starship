@@ -20,6 +20,8 @@ function bounds() {
 function capture() {
   if (!prose) return null;
   const { start, span } = bounds();
+  if (window.scrollY < start) return progress({ id, ratio: 0, anchor: null,
+    offset: 0, heading: window.scrollY / Math.max(1, start) }, book.chapters);
   let para = paragraphs[0];
   for (const p of paragraphs) {
     if (p.getBoundingClientRect().top > 110) break;
@@ -33,7 +35,8 @@ function restore(saved) {
   if (!saved || saved.id !== id || !prose) return;
   const anchor = saved.anchor && document.getElementById(saved.anchor);
   const { start, span } = bounds();
-  const y = anchor ? anchor.getBoundingClientRect().top + window.scrollY
+  const y = typeof saved.heading === 'number' ? start * saved.heading
+    : anchor ? anchor.getBoundingClientRect().top + window.scrollY
     + anchor.getBoundingClientRect().height * saved.offset - 100 : start + span * saved.ratio;
   window.scrollTo({ top: Math.max(0, y), behavior: 'instant' });
 }
@@ -55,7 +58,7 @@ function apply() {
   }
   theme();
   writeJSON(storage, key + ':settings', prefs);
-  if (before) requestAnimationFrame(() => { restore(before); save(); });
+  if (before) { restore(before); save(); }
 }
 $('#theme').addEventListener('click', () => {
   prefs.theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'; apply();
@@ -73,9 +76,34 @@ const toc = $('#toc');
 $('#toc-open').addEventListener('click', () => { toc.showModal(); $('#toc-search').focus(); });
 $('#toc-search').addEventListener('input', event => {
   const query = event.target.value.trim().toLocaleLowerCase();
-  for (const row of toc.querySelectorAll('li')) row.hidden = !row.textContent.toLocaleLowerCase().includes(query);
+  let count = 0;
+  for (const row of toc.querySelectorAll('li')) {
+    row.hidden = !row.textContent.toLocaleLowerCase().includes(query);
+    if (!row.hidden) count += 1;
+  }
+  $('#toc-status').textContent = count ? `找到 ${count} 篇` : '没有匹配章节，请换一个编号或篇名';
 });
-toc.addEventListener('click', event => { if (event.target === toc) toc.close(); });
+toc.addEventListener('click', event => {
+  if (event.target !== toc) return;
+  const rect = toc.getBoundingClientRect();
+  if (event.clientX < rect.left || event.clientX > rect.right ||
+      event.clientY < rect.top || event.clientY > rect.bottom) toc.close();
+});
+const layout = $('.settings');
+document.addEventListener('click', event => {
+  if (!layout.contains(event.target)) layout.open = false;
+});
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && toc.open) {
+    event.preventDefault();
+    toc.close();
+    return;
+  }
+  if (event.key === 'Escape' && layout.open) {
+    layout.open = false;
+    layout.querySelector('summary').focus();
+  }
+});
 document.addEventListener('keydown', event => {
   if (!event.altKey || event.ctrlKey || event.metaKey || toc.open ||
       ['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName) ||

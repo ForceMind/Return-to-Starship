@@ -10,9 +10,14 @@ export function settings(value = {}) {
 }
 export function progress(value, chapters) {
   if (!value || !chapters.some(c => c.id === value.id)) return null;
-  return { id: value.id, ratio: clamp(value.ratio, 0, 1, 0),
+  const result = { id: value.id, ratio: clamp(value.ratio, 0, 1, 0),
     anchor: /^p-[a-f0-9]{12}-\d+$/.test(value.anchor) ? value.anchor : null,
     offset: clamp(value.offset, 0, 1, 0) };
+  // Preserve a position in the chapter heading separately from body progress.
+  if (typeof value.heading === 'number' && Number.isFinite(value.heading)) {
+    result.heading = clamp(value.heading, 0, 1, 0);
+  }
+  return result;
 }
 export function readJSON(storage, key) {
   try { return JSON.parse(storage.getItem(key)); } catch { return null; }

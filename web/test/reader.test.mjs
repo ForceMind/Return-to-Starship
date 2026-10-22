@@ -105,3 +105,23 @@ test('settings/progress survive corrupt or unavailable storage without an unsafe
   assert.deepEqual(progress({ id: '00', ratio: 5, anchor: '<script>' }, [{ id: '00' }]),
     { id: '00', ratio: 1, anchor: null, offset: 0 });
 });
+
+test('heading positions survive save/load without being rewritten as the first paragraph', () => {
+  const chapters = [{ id: '00' }];
+  const saved = progress({ id: '00', ratio: 0, anchor: null, offset: 0, heading: 0 }, chapters);
+  assert.equal(progress(JSON.parse(JSON.stringify(saved)), chapters).heading, 0);
+  assert.equal(progress({ ...saved, heading: 0.5 }, chapters).heading, 0.5);
+  assert.equal(progress({ ...saved, heading: 8 }, chapters).heading, 1);
+  assert.equal('heading' in progress({ ...saved, heading: 'not a position' }, chapters), false);
+  assert.equal('heading' in progress({ id: '00', ratio: 0.3 }, chapters), false);
+});
+
+test('reader renders manuscript emphasis and exposes explicit slider labels and an empty-search status', t => {
+  assert.match(renderBody('# 标题\n\n*也许那里真的有东西。*\n'), /<em>也许那里真的有东西。<\/em>/);
+  assert.match(renderBody('# 标题\n\n**重点**与*斜体*和<script>\n'), /<strong>重点<\/strong>与<em>斜体<\/em>和&lt;script&gt;/);
+  const { root } = fixture(t);
+  const { out } = build({ root, preview: true });
+  const html = fs.readFileSync(path.join(out, 'zh/00.html'), 'utf8');
+  for (const name of ['font', 'line', 'width']) assert.match(html, new RegExp(`<label for="${name}">`));
+  assert.match(html, /id="toc-status"[^>]*role="status"/);
+});
