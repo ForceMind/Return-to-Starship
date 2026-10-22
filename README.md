@@ -39,7 +39,7 @@
 | 22 | [第二十二章　重返星舰](manuscript/zh/22-chapter.md) | 9,268 |
 | **合计** | **23篇待审工作稿** | **206,801** |
 
-[完整集中审阅稿R1](editions/zh/review-20261022.md) · [中文目录](manuscript/zh/README.md) · [当前进度](docs/progress.md) · [编辑记录](docs/editorial-pass02-20261010.md)
+[完整集中审阅稿R1](editions/zh/review-20261022.md) · [EPUB审阅本](editions/zh/review-20261022.epub) · [中文目录](manuscript/zh/README.md) · [当前进度](docs/progress.md) · [编辑记录](docs/editorial-pass02-20261010.md)
 
 ## 版本与来源
 
@@ -51,6 +51,8 @@
 ## 编辑与数字阅读
 
 23篇已完成本轮第二轮连读与实质修订，以及第三轮内部逐句复读和关键约束回查。保留原稿核心事件与当前D路线结局；未获作者最终审定。具体修改、检查范围和待办见[冻结前核查](docs/zh-prepublication-audit-20261014.md)；接手工程请读[交接说明](docs/NEXT_SESSION_HANDOFF.md)。
+
+完整R1同时提供Markdown与EPUB审阅本，固定同一正文源，可重复构建并核对23篇。EPUBCheck格式检查通过；实际阅读软件导入效果待验证。[版本与重建说明](editions/zh/README.md)。
 
 [网页阅读器](web/README.md)已实现中文本地审阅预览，23篇Markdown自动构建，具备主题、排版、目录和阅读位置保存。8项构建/状态/发布边界测试通过；云端Chrome交互及4种宽度验收通过，真机与其他浏览器、生产部署尚未进行。中文稳定并经作者确认后，再按[双语出版计划](docs/bilingual-publication-plan.md)制作英文学译；当前英文正文0/23。
 
