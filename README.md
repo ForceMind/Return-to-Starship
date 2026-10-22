@@ -1,6 +1,6 @@
 # 重返星舰 · Return to Starship
 
-原创长篇科幻小说。引言及第一至第二十二章已写至结局，共23篇正文、206,992个汉字（不计标题、标点和空白）。
+原创长篇科幻小说。引言及第一至第二十二章已写至结局，共23篇正文、206,695个汉字（不计标题、标点和空白）。
 
 中文稿正在文学修订和连续性审校。当前D路线是完整创作版本，尚未经作者最终审定；仓库公开不代表作品已经正式出版。
 
@@ -26,10 +26,10 @@
 | 09 | [第九章　封存者](manuscript/zh/09-chapter.md) | 9,204 |
 | 10 | [第十章　旧墙之后](manuscript/zh/10-chapter.md) | 8,387 |
 | 11 | [第十一章　空隙](manuscript/zh/11-chapter.md) | 8,333 |
-| 12 | [第十二章　还没有名字的地方](manuscript/zh/12-chapter.md) | 8,642 |
-| 13 | [第十三章　见证人](manuscript/zh/13-chapter.md) | 8,246 |
-| 14 | [第十四章　重量](manuscript/zh/14-chapter.md) | 9,361 |
-| 15 | [第十五章　第三种状态](manuscript/zh/15-chapter.md) | 8,779 |
+| 12 | [第十二章　还没有名字的地方](manuscript/zh/12-chapter.md) | 8,496 |
+| 13 | [第十三章　见证人](manuscript/zh/13-chapter.md) | 8,231 |
+| 14 | [第十四章　重量](manuscript/zh/14-chapter.md) | 9,301 |
+| 15 | [第十五章　第三种状态](manuscript/zh/15-chapter.md) | 8,703 |
 | 16 | [第十六章　静默的刻度](manuscript/zh/16-chapter.md) | 8,731 |
 | 17 | [第十七章　最后的开关](manuscript/zh/17-chapter.md) | 8,609 |
 | 18 | [第十八章　另一端](manuscript/zh/18-chapter.md) | 8,527 |
@@ -37,7 +37,7 @@
 | 20 | [第二十章　有人必须留下](manuscript/zh/20-chapter.md) | 9,124 |
 | 21 | [第二十一章　返航](manuscript/zh/21-chapter.md) | 12,199 |
 | 22 | [第二十二章　重返星舰](manuscript/zh/22-chapter.md) | 9,231 |
-| **合计** | **23篇待审工作稿** | **206,992** |
+| **合计** | **23篇待审工作稿** | **206,695** |
 
 [中文目录](manuscript/zh/README.md) · [当前进度](docs/progress.md) · [编辑记录](docs/editorial-pass02-20261010.md)
 
