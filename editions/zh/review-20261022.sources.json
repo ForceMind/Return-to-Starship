@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "edition": "R1",
+  "status": "author_review_candidate",
+  "publish_approved": false,
+  "date": "2026-10-22",
+  "source_commit": "4dfa7a35f8ba24c91685f28af67672da4c105ac5",
+  "manuscript_hanzi": 206801,
+  "chapter_count": 23,
+  "compiled_path": "editions/zh/review-20261022.md",
+  "compiled_sha256": "b70dde8325e195379cd5069a97cd45f7119e323d712bbf0904f697942fc28f92",
+  "chapters": [
+    {
+      "id": "00",
+      "title": "引言",
+      "path": "manuscript/zh/00-introduction.md",
+      "hanzi": 9588,
+      "blob_sha": "01a8249c9569c1e64297eaadb50bf743d8cab89d"
+    },
+    {
+      "id": "01",
+      "title": "第一章　星舰",
+      "path": "manuscript/zh/01-chapter.md",
+      "hanzi": 9696,
+      "blob_sha": "83bc5a8a93edffa7c682df365b9c4b6fff26afd6"
+    },
+    {
+      "id": "02",
+      "title": "第二章　黑洞探索",
+      "path": "manuscript/zh/02-chapter.md",
+      "hanzi": 10172,
+      "blob_sha": "23d7ce05c792149079bfa623141410b76a9a9421"
+    },
+    {
+      "id": "03",
+      "title": "第三章　空山",
+      "path": "manuscript/zh/03-chapter.md",
+      "hanzi": 10544,
+      "blob_sha": "6e10b8a58d4814ebeb970ac7381a44c3220ae03f"
+    },
+    {
+      "id": "04",
+      "title": "第四章　山沟",
+      "path": "manuscript/zh/04-chapter.md",
+      "hanzi": 8142,
+      "blob_sha": "290a2c311da444408069026d3ee2e4fa63bde792"
+    },
+    {
+      "id": "05",
+      "title": "第五章　失踪者",
+      "path": "manuscript/zh/05-chapter.md",
+      "hanzi": 8231,
+      "blob_sha": "53f7b69f3f79b0889640649354de569db19f35a0"
+    },
+    {
+      "id": "06",
+      "title": "第六章　回波",
+      "path": "manuscript/zh/06-chapter.md",
+      "hanzi": 8070,
+      "blob_sha": "4d7ecfdcb487b638c59fba168673595acc64bde0"
+    },
+    {
+      "id": "07",
+      "title": "第七章　最初的照片",
+      "path": "manuscript/zh/07-chapter.md",
+      "hanzi": 8073,
+      "blob_sha": "b3c8159eaa78d3281098e7ceb18fd6ab93a9bef4"
+    },
+    {
+      "id": "08",
+      "title": "第八章　留在原地",
+      "path": "manuscript/zh/08-chapter.md",
+      "hanzi": 8257,
+      "blob_sha": "1eacced82358da7d7cecc32972ff8fc71916b38f"
+    },
+    {
+      "id": "09",
+      "title": "第九章　封存者",
+      "path": "manuscript/zh/09-chapter.md",
+      "hanzi": 9204,
+      "blob_sha": "dcdee2ce186300afef30b4b8248c70defe8b6864"
+    },
+    {
+      "id": "10",
+      "title": "第十章　旧墙之后",
+      "path": "manuscript/zh/10-chapter.md",
+      "hanzi": 8387,
+      "blob_sha": "51e36cb1e689634df17e11b5332b6d4949504e02"
+    },
+    {
+      "id": "11",
+      "title": "第十一章　空隙",
+      "path": "manuscript/zh/11-chapter.md",
+      "hanzi": 8333,
+      "blob_sha": "feb51ed4f104407701dbf01be018c56c3ad11170"
+    },
+    {
+      "id": "12",
+      "title": "第十二章　还没有名字的地方",
+      "path": "manuscript/zh/12-chapter.md",
+      "hanzi": 8496,
+      "blob_sha": "ac44f19a21558328f07ba5e18dcf86727c5e6013"
+    },
+    {
+      "id": "13",
+      "title": "第十三章　见证人",
+      "path": "manuscript/zh/13-chapter.md",
+      "hanzi": 8231,
+      "blob_sha": "187c43e6234a39ed32aca08699650232edb6ee10"
+    },
+    {
+      "id": "14",
+      "title": "第十四章　重量",
+      "path": "manuscript/zh/14-chapter.md",
+      "hanzi": 9301,
+      "blob_sha": "972664fdd1c4b892196095fcc2ecde0bd756d8b1"
+    },
+    {
+      "id": "15",
+      "title": "第十五章　第三种状态",
+      "path": "manuscript/zh/15-chapter.md",
+      "hanzi": 8703,
+      "blob_sha": "939367fe1ce13a0e4500098cb16bc154f8d26357"
+    },
+    {
+      "id": "16",
+      "title": "第十六章　静默的刻度",
+      "path": "manuscript/zh/16-chapter.md",
+      "hanzi": 8701,
+      "blob_sha": "5b69b5e593d94096406d6e59fa33c6e92eb225af"
+    },
+    {
+      "id": "17",
+      "title": "第十七章　最后的开关",
+      "path": "manuscript/zh/17-chapter.md",
+      "hanzi": 8654,
+      "blob_sha": "0bb78520c4811f66bef06617768c396fee2bc048"
+    },
+    {
+      "id": "18",
+      "title": "第十八章　另一端",
+      "path": "manuscript/zh/18-chapter.md",
+      "hanzi": 8636,
+      "blob_sha": "ac0ebad82a348ed31f9b016d8b6ca8b23f4ea956"
+    },
+    {
+      "id": "19",
+      "title": "第十九章　四十六点七",
+      "path": "manuscript/zh/19-chapter.md",
+      "hanzi": 8845,
+      "blob_sha": "c469ecfe622581f6500638d1dd03854df9eefd1b"
+    },
+    {
+      "id": "20",
+      "title": "第二十章　有人必须留下",
+      "path": "manuscript/zh/20-chapter.md",
+      "hanzi": 9109,
+      "blob_sha": "f2f7fd64c450d642b55928659706421488ee3220"
+    },
+    {
+      "id": "21",
+      "title": "第二十一章　返航",
+      "path": "manuscript/zh/21-chapter.md",
+      "hanzi": 12160,
+      "blob_sha": "0e274708c8010b41e0135accc8a9f62e5c2ee05e"
+    },
+    {
+      "id": "22",
+      "title": "第二十二章　重返星舰",
+      "path": "manuscript/zh/22-chapter.md",
+      "hanzi": 9268,
+      "blob_sha": "76db53af3bec527295f4960fb9e000cc1b590d4f"
+    }
+  ]
+}
